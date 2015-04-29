@@ -1,0 +1,1 @@
+im_segmented('landscape.jpg');

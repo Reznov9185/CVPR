@@ -1,0 +1,2 @@
+1. Problem -1:
+	It takes a RGB image as the input matrix and returns the grayscale image by taking 30% of RED(from channel 1), 60% of GREEN(from channel 2) and 10% of BLUE(from channel 3). After that it sums the matrices to the desired grayscale form.  

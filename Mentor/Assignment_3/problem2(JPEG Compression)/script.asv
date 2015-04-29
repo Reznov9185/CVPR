@@ -1,0 +1,6 @@
+v=ForwardDCT('grey.jpg'); %forward DCT transformation (with quantization inside) 
+RLE=imRLE(v);             %Run length encoding (from previous answer) 
+dec=imRLE_dec(RLE);       %
+r=InverseDCT(dec);
+%back=dequantize(r,1);
+imshow(uint8(r));

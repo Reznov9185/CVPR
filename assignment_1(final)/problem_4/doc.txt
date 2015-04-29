@@ -1,0 +1,5 @@
+4. Problem-4:
+Edge:
+It takes a RGB image as input and it filters the image using median filter function and masks the image with sobel. After that it finds the Norm-Image-Matrix and so it detects the edges.
+Canny:
+It takes a RGB image, a maximum and a minimum threshold value as its input. Firstly, it filters the image using median filter function. Then find the Norm-Image-Matrix of it. Then it picks the tan^-1(dy/dx) angles and generalize it for the matrix access in Non-Maximum-Suppression. After that it does the Non-Maximum-Suppression and uses the high and low threshold values to make hysteresis. This is how this canny edge detection finds the edges here.

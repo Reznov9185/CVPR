@@ -1,0 +1,1 @@
+It takes a RGB image as input and converts it to grayscale. Then using filter2 function on 5x5 masking and taking the average it filters the image. 

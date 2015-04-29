@@ -1,0 +1,1 @@
+In each folder, open the 'main.m' file and then run that file.

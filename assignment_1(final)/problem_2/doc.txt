@@ -1,0 +1,2 @@
+Problem-2:
+It takes the RGB image as the input image matrix and converts it to the grayscale (as the method given on the answer to problem-1). After this it takes the mask and for each pixel of the matrix it masks that pixel with different values and takes the median value (using median function) for each pixel. So it returns median filtered image of the given input image which removes the noises of the image (better than average filtering).
